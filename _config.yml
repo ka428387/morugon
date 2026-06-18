@@ -1,0 +1,9 @@
+title: morugon
+description: 好きなものを「いいよ」と並べる、暮らしのキュレーション。
+theme: minima
+
+url: "https://ka428387.github.io"
+baseurl: "/blog"
+
+# 1ページに表示する設定など（必要になったら触ればOK）
+show_excerpts: true
