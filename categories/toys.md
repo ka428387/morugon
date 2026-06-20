@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "おもちゃ・ボードゲーム"
-category: "おもちゃ・ボードゲーム"
+title: "あそび"
+category: "あそび"
 permalink: /categories/toys/
 ---
