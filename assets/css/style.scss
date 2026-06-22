@@ -1,0 +1,38 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 見出しの下線 */
+h2 {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.3em;
+}
+
+/* 本文の読みやすさ（日本語は行間広めが◎） */
+body {
+  line-height: 1.9;
+  font-size: 16px;
+}
+
+/* 画像を横幅いっぱいに・スマホでも崩れない */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+}
+
+/* リンクの色（好みで変えてください） */
+a {
+  color: #4a90a4;
+}
+a:hover {
+  color: #2c6e82;
+  text-decoration: underline;
+}
+
+/* 段落間のゆとり */
+p {
+  margin-bottom: 1.4em;
+}
