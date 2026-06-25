@@ -2,7 +2,7 @@
 layout: post-with-share
 title: "キュボロはなにから買う？ジュニアへの愛を込めて"
 date: 2026-06-22
-image: /assets/images/cuboro-junior-01.JPG
+image: /assets/images/cuboro-junior-01.jpg
 categories: [あそび]
 permalink: /entry/20260622/
 excerpt: "永遠のテーマ、「どのキュボロから買う？」問題。これについては、いろいろな意見があると思います。"
