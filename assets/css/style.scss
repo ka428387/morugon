@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 /* 見出しの下線 */
-.post-content.e-content h2 {
+div.post-content h2　{
   border-bottom: 1px solid #cccccc;
   padding-bottom: 0.3em;
   font-size: 1.5em;
