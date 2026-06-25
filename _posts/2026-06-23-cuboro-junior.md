@@ -5,7 +5,7 @@ date: 2026-06-22
 image: /assets/images/cuboro-junior-09.jpg
 categories: [あそび]
 permalink: /entry/20260622/
-excerpt: "永遠のテーマ、「どのキュボロから買う？」問題。これについては、いろいろな意見があると思います。私のいちおしはスタンダード32。そしてそのうえでスタンダード32とジュニアの二箱同時投入もいかがですか？というご提案"
+excerpt: "永遠のテーマ、「どのキュボロから買う？」問題。これについては、いろいろな意見があると思います。私のいちおしはスタンダード32。そしてそのうえでスタンダード32とジュニアの二箱同時投入もいかがですか？というご提案です。"
 ---
 
 <img src="{{ '/assets/images/cuboro-junior-09.jpg' | relative_url }}" alt="キュボロジュニア" style="margin: 1.5em auto;">
