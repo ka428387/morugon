@@ -4,16 +4,17 @@
 @import "{{ site.theme }}";
 
 /* 見出しの下線 */
-.post-content h2 {
+.post-content.e-content h2 {
   border-bottom: 1px solid #cccccc;
   padding-bottom: 0.3em;
   font-size: 1.5em;
-  margin-top: 3em !important;
+  margin-top: 3em;
 }
 
 @media (max-width: 600px) {
-.post-content h2 { 
+  .post-content.e-content h2 {
     font-size: 1.3em;
+    margin-top: 2em;
   }
 }
 
