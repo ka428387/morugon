@@ -1,6 +1,6 @@
 ---
 layout: category
 title: "生活"
-category: "life"
+category: "生活"
 permalink: /categories/life/
 ---
