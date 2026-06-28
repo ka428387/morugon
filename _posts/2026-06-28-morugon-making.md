@@ -1,10 +1,10 @@
 ---
 layout: post-with-share
 title: "Xの過去ポストが、ブログ記事になるまで。Claudeと二人三脚の制作記"
-date: 2026-06-29
+date: 2026-06-28
 image: /assets/images/morugon-making-01.jpg
 categories: [AI]
-permalink: /entry/20260629/
+permalink: /entry/20260628/
 excerpt: "このブログ「morugon」の記事は、Xに16年ぶん書きためたポストを素材に、Claudeと相談しながら作っています。その舞台裏を記録しました。"
 ---
 
