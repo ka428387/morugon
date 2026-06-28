@@ -1,7 +1,7 @@
 ---
 layout: post-with-share
 title: "キュボロ・ジュニアへの愛"
-date: 2026-06-26
+date: 2026-06-26 00:02:00 +0900
 image: /assets/images/cuboro-junior-01.jpg
 categories: [あそび]
 permalink: /entry/20260626/
