@@ -14,7 +14,7 @@ excerpt: "このブログ「morugon」の記事は、Xに16年ぶん書きため
 
 ゼロから書いているわけではなくて、**これまでXに投稿してきた大量のポストを“素材”にして、Claudeと相談しながら一本の記事に育てていく**、というやり方。せっかくなので、その舞台裏を記録しておこうと思います。「自分のSNSの蓄積を、ちゃんとした記事にしたい」という人の参考になれば。
 
-![Claudeとのやりとり]({{ '/assets/images/morugon-making-02' | relative_url }})
+![Claudeとのやりとり]({{ '/assets/images/morugon-making-02.png' | relative_url }})
 
 
 ## ① Xの全ポストを書き出す
