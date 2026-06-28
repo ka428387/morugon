@@ -1,7 +1,7 @@
 ---
 layout: post-with-share
 title: "キュボロは何から買う？スタンダード32＋ジュニアをすすめる理由"
-date: 2026-06-26 00:03:00 +0900
+date: 2026-06-26 00:01:00 +0900
 image: /assets/images/cuboro-junior-09.jpg
 categories: [あそび]
 permalink: /entry/20260622/
