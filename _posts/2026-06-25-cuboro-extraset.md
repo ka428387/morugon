@@ -1,7 +1,7 @@
 ---
 layout: post-with-share
 title: "キュボロ拡張パーツ偏見カタログ"
-date: 2026-06-25
+date: 2026-06-26 00:01:00 +0900
 image: /assets/images/cuboro-junior08.JPG
 categories: [あそび]
 permalink: /entry/20260625/
