@@ -7,3 +7,8 @@ baseurl: "/morugon"
 
 # 1ページに表示する設定など（必要になったら触ればOK）
 show_excerpts: true
+
+# ── プロフィール用 ──
+author_name: kasumi
+twitter_url: "https://twitter.com/ka_428"
+instagram_url: "https://www.instagram.com/cuboro_s/"
