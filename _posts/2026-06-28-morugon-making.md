@@ -8,13 +8,13 @@ permalink: /entry/20260628/
 excerpt: "このブログ「morugon」の記事は、Xに16年ぶん書きためたポストを素材に、Claudeと相談しながら作っています。その舞台裏を記録しました。"
 ---
 
-![パソコンデスク]({{ '/assets/images/morugon-making-01.jpg' | relative_url }})
+<img src="{{ '/assets/images/morugon-making-01.jpg' | relative_url }}" alt="パソコンデスク" style="margin: 1.5em auto;">
 
 このブログ「morugon」の記事、実はかなり変わった作り方をしています。
 
 ゼロから書いているわけではなくて、**これまでXに投稿してきた大量のポストを“素材”にして、Claudeと相談しながら一本の記事に育てていく**、というやり方。せっかくなので、その舞台裏を記録しておこうと思います。「自分のSNSの蓄積を、ちゃんとした記事にしたい」という人の参考になれば。
 
-![Claudeとのやりとり]({{ '/assets/images/morugon-making-02.png' | relative_url }})
+<img src="{{ '/assets/images/morugon-making-02.jpg' | relative_url }}" alt="Claudeとのやりとり" style="margin: 1.5em auto;">
 
 
 ## ① Xの全ポストを書き出す
@@ -55,6 +55,8 @@ excerpt: "このブログ「morugon」の記事は、Xに16年ぶん書きため
 
 このブログはGitHub Pages（Jekyll）で動いているので、記事はMarkdownで書きます。でも私はもともと、コードに詳しいわけではありません。
 
+<img src="{{ '/assets/images/morugon-making-03.jpg' | relative_url }}" alt="原因を調べる" style="margin: 1.5em auto;">
+
 なので、つまずくたびにClaudeに聞いています。「リンクを新しいタブで開くようにするには？」「カテゴリ分けを作りたい」「画像の上下に余白を足したい」——そういう細かい“やり方”を、その場で教えてもらいながら反映していく。
 いままでなら「リンク　新規タブ　コード」や「画像　余白　サイズ　コード」みたいに「これで知りたいことにヒットするかな？」と考えながら検索していたことが、口語で書くだけで解決策に辿り着ける。サイト作りのハードルが本当に下がりました！
 
@@ -62,7 +64,7 @@ excerpt: "このブログ「morugon」の記事は、Xに16年ぶん書きため
 
 ## やってみて思うこと
 
-![窓際のスマートフォン]({{ '/assets/images/morugon-making-03.jpg' | relative_url }})
+<img src="{{ '/assets/images/morugon-making-04.jpg' | relative_url }}" alt="机の上のケルナーたち" style="margin: 1.5em auto;">
 
 この作り方の何がいいって、**過去の自分の発信が、ちゃんと“資産”になる**ことだと思います。
 
