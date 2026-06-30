@@ -1,13 +1,52 @@
 ---
-layout: page
-title: kasumi について
+layout: default
+title: "運営者情報"
 permalink: /about/
 ---
 
-現在製作中です
+# 運営者情報
 
-## つながる ##
-主にX（旧Twitter）にいます。日常のことや写真がメインです。よかったらのぞいてみてください。
+## サイト名
 
-{% if site.twitter_url %}- [X (Twitter)]({{ site.twitter_url }}){% endif %}
-{% if site.instagram_url %}- [Instagram]({{ site.instagram_url }}){% endif %}
+morugon（モルゴン）
+
+## サイトURL
+
+https://ka428387.github.io/morugon/
+
+## 運営者
+
+kasumi
+
+## 運営者について
+
+北関東の田舎で三兄弟（6歳/4歳/1歳）を子育て中。写真、おもちゃ好き。仕事は子どもたちのお世話と家業の経理。
+
+おもちゃや暮らしの道具を「使ってみた実感」とともに紹介します。
+
+特にヨーロッパの木のおもちゃ（キュボロ、ネフ社など）が好きで、収集・研究しています。
+
+## サイトの内容について
+
+このブログでは、子育てや暮らしの中で実際に使って良かったもの、考えたことを発信しています。
+
+記事内で紹介している商品の情報は、執筆時点のものです。価格や仕様は変更される場合がありますので、購入の際は各販売元の最新情報をご確認ください。
+
+## 広告について
+
+当サイトでは、楽天アフィリエイト等のアフィリエイトプログラムを利用し、商品の紹介を行っております。
+記事内のリンクを経由して商品が購入された場合、当サイトに紹介料が支払われることがあります。
+
+なお、商品の選定・レビューは、紹介料の有無にかかわらず、実際の使用感に基づいて公平に行っております。
+
+## SNS
+
+主にX（旧Twitter)にいます
+
+<a href="https://x.com/ka_428" target="_blank" rel="noopener noreferrer">X（旧Twitter）</a> ／ <a href="https://www.instagram.com/cuboro_s" target="_blank" rel="noopener noreferrer">Instagram</a>
+
+## お問い合わせ
+
+お問い合わせは、以下のフォームよりお願いいたします。
+
+<a href="https://forms.gle/hmqFSF2F39hT7dz1A" target="_blank" rel="noopener noreferrer">お問い合わせフォーム</a>
