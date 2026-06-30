@@ -42,6 +42,5 @@ kasumi
 
 <a href="https://forms.gle/hmqFSF2F39hT7dz1A" target="_blank" rel="noopener noreferrer">お問い合わせフォーム</a>
  
----
  
 <p><a href="{{ '/privacy-policy/' | relative_url }}">プライバシーポリシー</a></p>
