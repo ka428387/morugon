@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "運営者情報"
+title: "ABOUT"
 permalink: /about/
 ---
 
