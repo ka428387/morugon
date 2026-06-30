@@ -61,3 +61,9 @@ FN：傾斜がついているハーフパーツ。スタートにもなるし、
 
 そして、二箱を遊び尽くして「次の拡張パーツがほしい」となったら——こちらもどうぞ →
 <a href="{{ '/entry/20260625/' | relative_url }}" target="_blank" rel="noopener noreferrer">キュボロ拡張パーツ偏見カタログ</a>
+
+
+<div style="margin-top: 2em; padding: 1em 1.2em; background-color: #f7f7f7; border-radius: 8px; font-size: 0.85em; color: #666;">
+  <p style="margin: 0 0 0.6em 0;">記事で紹介した商品はこちら　<span style="opacity: 0.6;">[PR]</span></p>
+  <p style="margin: 0;">・<a href="https://a.r10.to/hYAwWZ" target="_blank" rel="noopener noreferrer">CUBORO ジュニア（楽天市場）</a></p>
+</div>
