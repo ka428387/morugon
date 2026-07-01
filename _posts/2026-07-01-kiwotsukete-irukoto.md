@@ -2,14 +2,14 @@
 layout: post-with-share
 title: "写真を撮るときに意識していること"
 date: 2026-07-01
-image: /assets/images/kiwotsukete-irukoto.jpg
+image: /assets/images/ai-ga-utsuru-01.jpg
 categories: [写真]
 tags: [写真]
 permalink: /entry/20260701/
 excerpt: "別の記事で「好きなものを撮ってください」と言いました。とはいえ、できれば少しでもよく撮りたい。そのために意識していることは、驚くほど少しです。"
 ---
 
-<img src="{{ '/assets/images/kiwotsukete-irukoto.jpg' | relative_url }}" alt="出産翌日" style="margin: 1.5em auto;">
+<img src="{{ '/assets/images/ai-ga-utsuru-01.jpg' | relative_url }}" alt="家族写真を撮る" style="margin: 1.5em auto;">
 
 <a href="{{ '/entry/20260630/' | relative_url }}" target="_blank" rel="noopener noreferrer">前回の記事</a>で写真には愛が写る、好きなものを撮ってください、という話をしました。
 
