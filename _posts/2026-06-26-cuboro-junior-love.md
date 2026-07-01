@@ -5,6 +5,7 @@ date: 2026-06-26 00:03:00 +0900
 image: /assets/images/cuboro-junior-01.jpg
 twitter_image: /assets/images/cuboro-junior-01.jpg
 categories: [あそび]
+tags: [キュボロ, 木のおもちゃ]
 permalink: /entry/20260626/
 excerpt: "キュボロ・ジュニアは“簡易版”じゃない。大好きなジュニアの話。"
 ---
