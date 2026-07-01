@@ -4,6 +4,7 @@ title: "高すぎて何度もためらった。我が家がキュボロを迎え
 date: 2026-06-21
 image: /assets/images/cuboro-history.jpg
 categories: [あそび]
+tags: [キュボロ, 木のおもちゃ]
 permalink: /entry/20260621/
 excerpt: "キュボロ、ずっと気になってる。でも高い。そして買ったとしてうちの子が本当に遊ぶのかわからない——そう思っていた我が家が、石橋を叩きまくった末にキュボロを迎えるまでの話。"
 ---
