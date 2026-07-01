@@ -4,6 +4,7 @@ title: "キュボロ拡張パーツ偏見カタログ"
 date: 2026-06-27 00:03:00 +0900
 image: /assets/images/cuboro-junior08.JPG
 categories: [あそび]
+tags: [キュボロ, 木のおもちゃ]
 permalink: /entry/20260625/
 excerpt: "スタンダードとジュニアを揃えたら、次に訪れるのが「どの拡張を足そう？」問題。我が家で遊んできたキュボロの拡張パーツを、偏見たっぷりにご紹介します。"
 ---
