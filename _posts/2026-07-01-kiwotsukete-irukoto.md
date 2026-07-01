@@ -9,9 +9,9 @@ permalink: /entry/20260701/
 excerpt: "別の記事で「好きなものを撮ってください」と言いました。とはいえ、できれば少しでもよく撮りたい。そのために意識していることは、驚くほど少しです。"
 ---
 
-<img src="{{ '/assets/images/kiwotsukete-irukoto.jpg' | relative_url }}" alt="結婚式前夜" style="margin: 1.5em auto;">
+<img src="{{ '/assets/images/kiwotsukete-irukoto.jpg' | relative_url }}" alt="出産翌日" style="margin: 1.5em auto;">
 
-写真には愛が写る、好きなものを撮ってください、という話をしました。
+<a href="20260630" target="_blank" rel="noopener noreferrer">前回の記事</a>で写真には愛が写る、好きなものを撮ってください、という話をしました。
 
 とはいえ、できれば少しでもよく撮りたい。なので、私が撮影と現像で気をつけていることを書きます。
 
