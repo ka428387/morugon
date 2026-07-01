@@ -6,4 +6,12 @@ layout: post
 
 {% include share-buttons.html %}
 
+{% if page.tags.size > 0 %}
+<div class="post-tags" style="margin: 1em 0; font-size: 0.9em;">
+  {% for tag in page.tags %}
+    <a href="{{ '/tags/#' | append: tag | relative_url }}" style="display: inline-block; margin-right: 0.6em; text-decoration: none; color: #828282;">#{{ tag }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+
 {% include category-nav.html %}
