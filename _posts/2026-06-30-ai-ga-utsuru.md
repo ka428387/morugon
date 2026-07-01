@@ -1,6 +1,6 @@
 ---
 layout: post-with-share
-title: "みんな好きなものをたくさん撮ってほしい"
+title: "好きなものをたくさん撮ってほしい"
 date: 2026-06-30
 image: /assets/images/ai-ga-utsuru-03.jpg
 categories: [写真]
