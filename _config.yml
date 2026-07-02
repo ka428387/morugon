@@ -9,3 +9,5 @@ author_name: kasumi
 twitter_url: "https://twitter.com/ka_428"
 instagram_url: "https://www.instagram.com/cuboro_s/"
 header_pages: []
+minima:
+  date_format: "%Y年%-m月%-d日"
