@@ -1,6 +1,6 @@
 ---
 layout: post-with-share
-title: "行き当たりばったりのお誕生日ケーキ"
+title: "行き当たりばったりなお誕生日ケーキ"
 date: 2026-07-03
 image: /assets/images/blueberry-cake-02.jpg
 categories: [生活]
