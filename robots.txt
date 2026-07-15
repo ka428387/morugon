@@ -1,0 +1,50 @@
+# AI学習用クローラーをブロック（検索エンジン・AI検索の回答用ボットは許可）
+
+# OpenAI（学習用）
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic（学習用）
+User-agent: ClaudeBot
+Disallow: /
+
+# Google Gemini（学習用。Google検索の順位には影響しない）
+User-agent: Google-Extended
+Disallow: /
+
+# Common Crawl（多くのAIの学習データ源）
+User-agent: CCBot
+Disallow: /
+
+# Apple Intelligence（学習用）
+User-agent: Applebot-Extended
+Disallow: /
+
+# Meta（学習用）
+User-agent: meta-externalagent
+Disallow: /
+
+# ByteDance
+User-agent: Bytespider
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+
+# Diffbot
+User-agent: Diffbot
+Disallow: /
+
+# webz.io（学習データ販売）
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+# その他のボット（Googlebot、Bingbot、AI検索の回答用ボットなど）は許可
+User-agent: *
+Allow: /
+
+Sitemap: https://morugon.com/sitemap.xml
