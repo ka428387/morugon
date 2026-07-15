@@ -1,8 +1,8 @@
 title: morugon
 description: 「いいよ」のおすそ分け、くらしのキュレーション
 theme: minima
-url: "https://ka428387.github.io"
-baseurl: "/morugon"
+url: "https://morugon.com"
+baseurl: ""
 lang: ja_JP
 show_excerpts: true
 author_name: kasumi
@@ -11,3 +11,7 @@ instagram_url: "https://www.instagram.com/cuboro_s/"
 header_pages: []
 minima:
   date_format: "%Y年%-m月%-d日"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
