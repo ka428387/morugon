@@ -1,14 +1,14 @@
 ---
 layout: post-with-share
 title: 本を読まない子どもだった私の読書遍歴
-date: 2026-07-18
+date: 2026-07-17
 image: /assets/images/dokusho-henreki-01.jpg
 categories:
   - 思考
 tags:
   - 思考
   - 読書
-permalink: /entry/20260718/
+permalink: /entry/20260717/
 excerpt: Xで見かけた小学生の読書の話題に「私はこうだったな」と振り返ってみました。よわよわすぎる私の読書遍歴。
 ---
 <img src="{{ '/assets/images/dokusho-henreki-01.jpg' | relative_url }}" alt="ブックオフで購入した絵本たち" style="margin: 1.5em auto;">
