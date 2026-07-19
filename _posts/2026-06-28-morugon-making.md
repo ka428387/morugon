@@ -7,6 +7,7 @@ categories: [AI]
 tags: [AI活用]
 permalink: /entry/20260628/
 excerpt: "このブログ「morugon」の記事は、Xに16年ぶん書きためたポストを素材に、Claudeと相談しながら作っています。その舞台裏を記録しました。"
+status: published
 ---
 
 <img src="{{ '/assets/images/morugon-making-01.jpg' | relative_url }}" alt="パソコンデスク" style="margin: 1.5em auto;">

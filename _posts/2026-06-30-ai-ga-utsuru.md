@@ -7,6 +7,7 @@ categories: [写真]
 tags: [写真]
 permalink: /entry/20260630/
 excerpt: "何度でも言いたい。好きなものを撮ってください、という話です。"
+status: published
 ---
 
 <img src="{{ '/assets/images/ai-ga-utsuru-04.jpg' | relative_url }}" alt="公園で遊ぶ長男" style="margin: 1.5em auto;">

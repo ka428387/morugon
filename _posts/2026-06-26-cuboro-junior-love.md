@@ -8,6 +8,7 @@ categories: [あそび]
 tags: [キュボロ, 木のおもちゃ]
 permalink: /entry/20260626/
 excerpt: "キュボロ・ジュニアは“簡易版”じゃない。大好きなジュニアの話。"
+status: published
 ---
 
 別記事「キュボロは何から買う？」で、私は「スタンダード32＋ジュニアの二箱」をおすすめしました（→ <a href="{{ '/entry/20260622/' | relative_url }}" target="_blank" rel="noopener noreferrer">キュボロは何から買う？</a>）。

@@ -7,6 +7,7 @@ categories: [あそび]
 tags: [キュボロ, 木のおもちゃ]
 permalink: /entry/20260622/
 excerpt: "永遠のテーマ、「どのキュボロから買う？」問題。我が家がたどり着いた答えと、その理由を書きました。"
+status: published
 ---
 
 <img src="{{ '/assets/images/cuboro-junior-09.jpg' | relative_url }}" alt="キュボロジュニア" style="margin: 1.5em auto;">

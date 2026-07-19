@@ -7,6 +7,7 @@ categories: [あそび]
 tags: [キュボロ, 木のおもちゃ]
 permalink: /entry/20260621/
 excerpt: "キュボロ、ずっと気になってる。でも高い。そして買ったとしてうちの子が本当に遊ぶのかわからない——そう思っていた我が家が、石橋を叩きまくった末にキュボロを迎えるまでの話。"
+status: published
 ---
 
 <img src="{{ '/assets/images/cuboro-history01.jpg' | relative_url }}" alt="今のキュボロで遊ぶ様子" style="margin: 1.5em auto;">

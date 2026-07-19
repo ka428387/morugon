@@ -10,6 +10,7 @@ tags:
   - 読書
 permalink: /entry/20260717/
 excerpt: Xで見かけた小学生の読書の話題に「私はこうだったな」と振り返ってみました。よわよわすぎる私の読書遍歴。
+status: published
 ---
 <img src="{{ '/assets/images/dokusho-henreki-01.jpg' | relative_url }}" alt="ブックオフで購入した絵本たち" style="margin: 1.5em auto;">
 
