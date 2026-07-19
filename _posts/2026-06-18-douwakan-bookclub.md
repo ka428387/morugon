@@ -7,6 +7,7 @@ categories: [育児]
 tags: [絵本]
 permalink: /entry/20260618/
 excerpt: "絵本の定期便、童話館ぶっくくらぶを始めたのは今年の3月のこと。長男（当時5歳10ヶ月）に4〜5歳コース、次男（当時3歳8ヶ月）に3〜4歳コース。三男（当時1歳7ヶ月）は予算の関係でひとまずおあずけ（ごめんよ）。"
+status: published
 ---
 ![童話館から届く封筒]({{ '/assets/images/douwakan.jpg' | relative_url }})
 

@@ -7,6 +7,7 @@ categories: [写真]
 tags: [写真]
 permalink: /entry/20260701/
 excerpt: "別の記事で「好きなものを撮ってください」と言いました。とはいえ、できれば少しでもよく撮りたい。そのために意識していることは、驚くほど少しです。"
+status: published
 ---
 
 <img src="{{ '/assets/images/ai-ga-utsuru-01.jpg' | relative_url }}" alt="家族写真を撮る" style="margin: 1.5em auto;">
