@@ -2,7 +2,7 @@
 layout: post-with-share
 title: わたわたな夏休みの記録（6歳・4歳・2歳）
 date: 2026-09-03
-image: /assets/images/natsuyasumi-kiroku.jpg
+image: /assets/images/natsuyasumi-kiroku-01.jpg
 categories:
   - 育児
 tags:
@@ -12,7 +12,7 @@ status: published
 excerpt: 夏期保育を利用できたのは3回だけ。全然自分の時間がとれない！と思った夏休みも、終わってみればという記録です。
 ---
 
-<img src="{{ '/assets/images/natsuyasumi-kiroku.jpg' | relative_url }}" alt="海" style="margin: 1.5em auto;">
+<img src="{{ '/assets/images/natsuyasumi-kiroku-01.jpg' | relative_url }}" alt="カブトムシ" style="margin: 1.5em auto;">
 
 夏休みが終わりました。
 
@@ -44,6 +44,8 @@ excerpt: 夏期保育を利用できたのは3回だけ。全然自分の時間�
 夫が休日の日でも基本的にこのスケジュールは変わらず、途中で私の実家に帰省したり、妹家族と遊んだりもしましたが、7〜8割方はこんな感じでした。
 
 ## 終わってみて
+
+<img src="{{ '/assets/images/natsuyasumi-kiroku-02.jpg' | relative_url }}" alt="地元の海" style="margin: 1.5em auto;">
 
 次男の登園しぶりは厳しかった〜〜〜〜。全然自分の時間がとれない！！と思っていましたが、終わってみれば、子どもたちとがっつり一緒に過ごすことができてよかったかな、とも思います。
 
