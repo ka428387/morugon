@@ -7,6 +7,7 @@ categories: [仕事]
 tags: [経理, 労務, 協会けんぽ, 健康診断]
 permalink: /entry/20260904/
 status: published
+excerpt: 人間ドックの補助25,000円を、家族が伝え忘れで取り逃していました。会社負担は1人あたり約1万円増えますが、それで従業員が健康に長く働いてくれるなら安いもの——そう思って、健康診断規程を作った話です。
 ---
 
 <img src="{{ '/assets/images/kenshin-kitei-01.jpg' | relative_url }}" alt="健康診断規程" style="margin: 1.5em auto;">
