@@ -67,8 +67,8 @@ description: "三兄弟を育てながら、家族の毎日がちょっと楽し
 <div class="app-card">
   <img src="{{ '/assets/images/apps/obake-sketchbook.png' | relative_url }}" alt="">
   <div>
-    <h3>オバケちゃんのスケッチブック</h3>
-    <p>手描きのオバケちゃんが、スケッチブックの中で勝手に暮らしているのを眺めるだけ。何もしなくていい、ひと息つきたいとき用です。</p>
+    <h3>おばけちゃんのスケッチブック</h3>
+    <p>手描きのおばけちゃんが、スケッチブックの中で勝手に暮らしているのを眺めるだけ。何もしなくていい、ひと息つきたいとき用です。</p>
     <a class="app-link" href="https://obake-sketchbook.pages.dev/" target="_blank" rel="noopener">開いてみる</a>
   </div>
 </div>
