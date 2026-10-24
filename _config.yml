@@ -4,6 +4,7 @@ theme: minima
 url: "https://morugon.com"
 baseurl: ""
 lang: ja_JP
+timezone: Asia/Tokyo
 show_excerpts: true
 author_name: kasumi
 twitter_url: "https://twitter.com/ka_428"
