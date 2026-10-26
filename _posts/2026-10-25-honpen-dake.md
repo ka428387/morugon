@@ -2,7 +2,7 @@
 layout: post-with-share
 title: YouTubeの「本編だけ」を集めた、わが家専用のページをAIに作ってもらった
 date: 2026-10-25 06:00:00 +0900
-image: /assets/images/honpen-dake-01.png
+image: /assets/images/honpen-dake-04.jpg
 categories:
   - AI
 tags:
@@ -14,7 +14,7 @@ status: published
 excerpt: 切り抜きでも、長時間でも、おもちゃ紹介でもない。公式チャンネルの1話まるごとだけを並べた、家族用のページを作りました。
 ---
 
-<img src="{{ '/assets/images/honpen-dake-01.png' | relative_url }}" alt="タブレットに動画の一覧が並んでいるイラスト" style="margin: 1.5em auto;">
+<img src="{{ '/assets/images/honpen-dake-04.jpg' | relative_url }}" alt="窓辺に置いたタブレットをさわる子どもの後ろ姿" style="margin: 1.5em auto;">
 
 子どもたちと私が大好きなアニメ、ブルーイ。オーストラリアの犬の家族のおはなしで、1話が7分ほどの短いアニメです。
 子どもたちはブルーイたちのワクワクする遊び（あるいはいたずら）にキャッキャし、私は「あるあるあるあるわかるわかるわかる」とチリの表情に頷き、毎週土曜日の放映を家族みんなで楽しく見ています。
