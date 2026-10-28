@@ -60,6 +60,15 @@ description: "三兄弟を育てながら、家族の毎日がちょっと楽し
   </div>
 </div>
 
+<div class="app-card">
+  <img src="{{ '/assets/images/apps/shirogumi.png' | relative_url }}" alt="">
+  <div>
+    <h3>白組 — 眺める集団行動</h3>
+    <p>ボールペン画の64人が、整列やウェーブなど運動会のような演目を演じ続けます。何もしなくていい、眺めるだけのアプリです。</p>
+    <a class="app-link" href="https://apps.apple.com/jp/app/id6824418116" target="_blank" rel="noopener">App Store で見る</a>
+  </div>
+</div>
+
 <h2 class="apps-section">ブラウザで使えるもの</h2>
 
 <p>インストールなしで開けます。iPhone なら Safari の共有ボタン →「ホーム画面に追加」で、アプリのように置いておけます。</p>
