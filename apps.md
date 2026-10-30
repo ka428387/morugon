@@ -69,6 +69,15 @@ description: "三兄弟を育てながら、家族の毎日がちょっと楽し
   </div>
 </div>
 
+<div class="app-card">
+  <img src="{{ '/assets/images/apps/kururi.png' | relative_url }}" alt="">
+  <div>
+    <h3>くるりの庭</h3>
+    <p>羽根の回転が波になってひろがる、小さな庭。指でなぞると、やさしい音と小さな振動が返ってきます。広告なし・無料です。</p>
+    <a class="app-link" href="https://apps.apple.com/jp/app/id6825377657" target="_blank" rel="noopener">App Store で見る</a><a class="app-link" href="https://kururi-no-niwa.pages.dev/" target="_blank" rel="noopener">ブラウザで見る</a>
+  </div>
+</div>
+
 <h2 class="apps-section">ブラウザで使えるもの</h2>
 
 <p>インストールなしで開けます。iPhone なら Safari の共有ボタン →「ホーム画面に追加」で、アプリのように置いておけます。</p>
