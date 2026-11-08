@@ -1,12 +1,12 @@
 ---
 layout: post-with-share
-title: "0歳児育児、モノ以外で助かった「仕組み」の話"
+title: "0歳児育児、モノじゃないけど助かったこと"
 date: 2026-11-09
 image: /assets/images/0saiji-shikumi-top.jpg
 categories: [育児]
 tags: [育児]
 permalink: /entry/20261109/
-excerpt: "買ってよかったものは、たくさんあります。でも3人育ててみて、同じくらい助けられたのは、モノではなく仕組みのほうでした。"
+excerpt: "買ってよかったものは、たくさんあります。でも3人育ててみて、同じくらい助けられたのは、行政のサービスや、ちょっとした事前の準備でした。"
 status: draft
 ---
 
@@ -14,7 +14,7 @@ status: draft
 
 前回、<a href="{{ '/entry/20261107/' | relative_url }}" target="_blank" rel="noopener noreferrer">0歳児育児で買ってよかったもの</a>を書きました。
 
-今回はちょっと別視点での紹介記事です。「仕組み・心構え」の話です。
+今回はちょっと別視点で、モノじゃないけど助かったことの話です。
 
 前提として：
 夫は育休なし。私も産休育休なし。よって里帰り出産もなし。
