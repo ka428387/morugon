@@ -16,3 +16,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# 商品ボックス（_includes/item-box.html）で使うアフィリエイトID
+amazon_tag: "kasumi73400b-22"
+rakuten_affiliate_id: "555c474b.0792bad8.555c474c.51b45976"

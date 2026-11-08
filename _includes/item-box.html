@@ -1,0 +1,63 @@
+{% comment %}
+  商品ボックス（カエレバ風）
+
+  ふだんの書き方（記事の中に1行。前後を波カッコ＋％で囲む）：
+    include item-box.html title="商品名" asin="B00BUFERYO" image="https://thumbnail.image.rakuten.co.jp/〜.jpg"
+
+  - title  … 必須。表示される商品名。楽天の検索キーワードにも使う
+  - asin   … Amazonの商品番号（URLの /dp/ のあとの10文字）。あれば Amazon ボタンが商品ページへ、なければ検索結果へ
+  - image  … 楽天の商品画像のURL、または自分の写真（/assets/images/〜）。なければ画像なしで表示
+  - rakuten_keyword … 楽天で検索する言葉を商品名と変えたいときだけ
+  - rakuten_item … 楽天のふつうの商品ページURL。楽天ボタンがその商品ページへのアフィリエイトリンクになる
+  - no_amazon=true … Amazon のボタンを出さない（Amazonで売っていないもの）
+  - rakuten / amazon / yahoo … リンクを自分で用意したときだけ（自動のリンクより優先）
+  - official … 公式サイトのボタン（アフィリエイトなし）
+  - auto=false … Amazon・楽天のボタンを自動で付けない（公式サイトでしか買えないものなど）
+
+  Amazon と楽天のボタンは、_config.yml の amazon_tag / rakuten_affiliate_id から自動で作る。
+  アフィリエイトのボタンが1つでもあれば「PR」が出る。
+{% endcomment %}
+{% assign amazon_url = nil %}{% assign rakuten_url = nil %}{% assign rakuten_search = nil %}
+{% assign rk = include.rakuten_keyword | default: include.title %}
+
+{% if include.amazon %}
+  {% assign amazon_url = include.amazon %}
+{% elsif include.auto == false or include.no_amazon %}
+{% elsif site.amazon_tag and include.asin %}
+  {% capture amazon_url %}https://www.amazon.co.jp/dp/{{ include.asin }}?tag={{ site.amazon_tag }}{% endcapture %}
+{% elsif site.amazon_tag %}
+  {% capture amazon_url %}https://www.amazon.co.jp/s?k={{ include.title | url_encode }}&tag={{ site.amazon_tag }}{% endcapture %}
+{% endif %}
+
+{% if include.rakuten %}
+  {% assign rakuten_url = include.rakuten %}
+{% elsif include.rakuten_item and site.rakuten_affiliate_id %}
+  {% capture rakuten_url %}https://hb.afl.rakuten.co.jp/hgc/{{ site.rakuten_affiliate_id }}/?pc={{ include.rakuten_item | url_encode }}&m={{ include.rakuten_item | url_encode }}{% endcapture %}
+{% elsif include.auto == false %}
+{% elsif site.rakuten_affiliate_id %}
+  {% capture rakuten_search %}https://search.rakuten.co.jp/search/mall/{{ rk | uri_escape }}/{% endcapture %}
+  {% capture rakuten_url %}https://hb.afl.rakuten.co.jp/hgc/{{ site.rakuten_affiliate_id }}/?pc={{ rakuten_search | url_encode }}&m={{ rakuten_search | url_encode }}{% endcapture %}
+{% endif %}
+
+{% assign yahoo_url = include.yahoo %}
+{% if amazon_url or rakuten_url or yahoo_url %}{% assign is_pr = true %}{% else %}{% assign is_pr = false %}{% endif %}
+{% assign first = rakuten_url | default: amazon_url | default: yahoo_url | default: include.official %}
+
+<div class="item-box">
+  {% if include.image %}
+  <div class="item-box__image">
+    {% if include.image contains '://' %}{% assign src = include.image %}{% else %}{% assign src = include.image | relative_url %}{% endif %}
+    {% if first %}<a href="{{ first }}" target="_blank" rel="noopener noreferrer{% if is_pr %} sponsored{% endif %}">{% endif %}<img src="{{ src }}" alt="{{ include.title }}" loading="lazy">{% if first %}</a>{% endif %}
+  </div>
+  {% endif %}
+  <div class="item-box__body">
+    <p class="item-box__title">{{ include.title }}</p>
+    {% if is_pr %}<p class="item-box__pr">PR</p>{% endif %}
+    <div class="item-box__buttons">
+      {% if rakuten_url %}<a href="{{ rakuten_url }}" target="_blank" rel="noopener noreferrer sponsored">楽天市場</a>{% endif %}
+      {% if amazon_url %}<a href="{{ amazon_url }}" target="_blank" rel="noopener noreferrer sponsored">Amazon</a>{% endif %}
+      {% if yahoo_url %}<a href="{{ yahoo_url }}" target="_blank" rel="noopener noreferrer sponsored">Yahooショッピング</a>{% endif %}
+      {% if include.official %}<a href="{{ include.official }}" target="_blank" rel="noopener noreferrer">公式サイト</a>{% endif %}
+    </div>
+  </div>
+</div>
