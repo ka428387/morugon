@@ -7,7 +7,7 @@ categories: [育児]
 tags: [育児]
 permalink: /entry/20261109/
 excerpt: "買ってよかったものは、たくさんあります。でも3人育ててみて、同じくらい助けられたのは、モノではなく仕組みのほうでした。"
-status: published
+status: draft
 ---
 
 <img src="{{ '/assets/images/0saiji-shikumi-top.jpg' | relative_url }}" alt="リビングのラグの上にひとりで座っている赤ちゃん" style="margin: 1.5em auto;">
