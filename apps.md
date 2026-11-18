@@ -78,18 +78,18 @@ description: "三兄弟を育てながら、家族の毎日がちょっと楽し
   </div>
 </div>
 
-<h2 class="apps-section">ブラウザで使えるもの</h2>
-
-<p>インストールなしで開けます。iPhone なら Safari の共有ボタン →「ホーム画面に追加」で、アプリのように置いておけます。</p>
-
 <div class="app-card">
   <img src="{{ '/assets/images/apps/obake-sketchbook.png' | relative_url }}" alt="">
   <div>
-    <h3>おばけちゃんのスケッチブック</h3>
-    <p>手描きのおばけちゃんが、スケッチブックの中で勝手に暮らしているのを眺めるだけ。何もしなくていい、ひと息つきたいとき用です。</p>
-    <a class="app-link" href="https://obake-sketchbook.pages.dev/" target="_blank" rel="noopener">開いてみる</a>
+    <h3>おばけちゃんスケッチブック</h3>
+    <p>手描きのおばけちゃんが、スケッチブックの中で勝手に暮らしているのを眺めるだけ。季節や行事で部屋が変わり、見ていない間のことはノートに残ります。ホーム画面のウィジェットつき。広告なし・無料です。</p>
+    <a class="app-link" href="https://apps.apple.com/jp/app/id6823010608" target="_blank" rel="noopener">App Store で見る</a><a class="app-link" href="https://obake-sketchbook.pages.dev/" target="_blank" rel="noopener">ブラウザで見る</a>
   </div>
 </div>
+
+<h2 class="apps-section">ブラウザで使えるもの</h2>
+
+<p>インストールなしで開けます。iPhone なら Safari の共有ボタン →「ホーム画面に追加」で、アプリのように置いておけます。</p>
 
 <div class="app-card">
   <img src="{{ '/assets/images/apps/pill-calendar.png' | relative_url }}" alt="">
