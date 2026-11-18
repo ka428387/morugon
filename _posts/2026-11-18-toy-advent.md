@@ -4,7 +4,7 @@ title: 「あればいいのに」を見かけて、おもちゃのアドベン�
 date: 2026-11-18
 image: /assets/images/toy-advent-01.jpg
 categories:
-  - あそび
+  - AI
 tags:
   - あそび
   - AI活用
