@@ -99,7 +99,8 @@
 .related-posts__item {
   margin: 0;
 }
-.related-posts__link {
+.related-posts__link,
+.related-posts__link:visited {
   display: block;
   color: #333333;
   text-decoration: none;
