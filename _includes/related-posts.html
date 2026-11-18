@@ -1,0 +1,62 @@
+{% comment %}
+  記事の下に出す「同じカテゴリの記事」＋「新しい記事」（どちらも写真カード2列）。
+  - 同じカテゴリ（1つめのカテゴリ）の記事を新しい順に 4本 → 2本 → 出さない（2列の片側が空かないよう偶数にそろえる）
+  - 同じカテゴリを4本出したら新しい記事は2本、それ以外は新しい記事を4本
+  - カテゴリページへのリンクは categories/*.md の category と permalink から引く
+{% endcomment %}
+{% assign main_cat = page.categories | first %}
+{% assign cat_total = 0 %}
+{% if main_cat %}
+  {% for post in site.posts %}
+    {% if post.url != page.url and post.categories contains main_cat %}
+      {% assign cat_total = cat_total | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% assign cat_page = site.pages | where: "layout", "category" | where: "category", main_cat | first %}
+{% endif %}
+
+{% if cat_total >= 4 %}{% assign cat_limit = 4 %}{% elsif cat_total >= 2 %}{% assign cat_limit = 2 %}{% else %}{% assign cat_limit = 0 %}{% endif %}
+{% if cat_limit == 4 %}{% assign fill_count = 2 %}{% else %}{% assign fill_count = 4 %}{% endif %}
+
+{% assign shown_urls = page.url | split: "|||" %}
+{% assign same_cat = "" | split: "" %}
+{% if cat_limit > 0 %}
+  {% for post in site.posts %}
+    {% if post.url != page.url and post.categories contains main_cat and same_cat.size < cat_limit %}
+      {% assign same_cat = same_cat | push: post %}
+      {% assign shown_urls = shown_urls | push: post.url %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign latest = "" | split: "" %}
+{% for post in site.posts %}
+  {% unless shown_urls contains post.url %}
+    {% if latest.size < fill_count %}
+      {% assign latest = latest | push: post %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+
+<aside class="related-posts">
+  {% if same_cat.size > 0 %}
+  <section class="related-posts__group">
+    <h2 class="related-posts__heading">「{{ main_cat }}」の記事</h2>
+    <ul class="related-posts__list">
+      {% for post in same_cat %}{% include related-post-card.html post=post %}{% endfor %}
+    </ul>
+    {% if cat_page %}
+    <p class="related-posts__more"><a href="{{ cat_page.url | relative_url }}">「{{ main_cat }}」の記事をすべて見る →</a></p>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if latest.size > 0 %}
+  <section class="related-posts__group">
+    <h2 class="related-posts__heading">新しい記事</h2>
+    <ul class="related-posts__list">
+      {% for post in latest %}{% include related-post-card.html post=post %}{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</aside>

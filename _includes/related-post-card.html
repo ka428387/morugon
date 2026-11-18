@@ -1,0 +1,10 @@
+<li class="related-posts__item">
+  <a class="related-posts__link" href="{{ include.post.url | relative_url }}">
+    {% if include.post.image %}
+    <span class="related-posts__thumb"><img src="{{ include.post.image | relative_url }}" alt="" loading="lazy"></span>
+    {% else %}
+    <span class="related-posts__thumb related-posts__thumb--empty"></span>
+    {% endif %}
+    <span class="related-posts__title">{{ include.post.title | escape }}</span>
+  </a>
+</li>
