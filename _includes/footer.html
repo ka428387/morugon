@@ -8,9 +8,15 @@
     <div class="footer-col-wrapper">
 
       <div class="footer-col footer-col-1">
-        <p class="profile-name">{{ site.author_name | default: site.title | escape }}</p>
+        <div class="profile-head">
+          <img class="profile-icon" src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="" width="48" height="48" loading="lazy">
+          <p class="profile-name">{{ site.author_name | default: site.title | escape }}</p>
+        </div>
         <p class="profile-bio">北関東の田舎で三兄弟を子育て中。写真、おもちゃ好き。仕事は子どもたちのお世話と家業の経理。</p>
-        <p><a href="{{ "/about/" | relative_url }}">プロフィールを見る →</a></p>
+        <p class="profile-links">
+          <a href="{{ "/about/" | relative_url }}">プロフィールを見る →</a>
+          <a href="{{ "/apps/" | relative_url }}">作ったアプリ →</a>
+        </p>
         <ul class="social-links-list">
           {%- if site.twitter_url -%}
           <li>
@@ -59,7 +65,10 @@
 </footer>
 
 <style>
-  .footer-col-1 .profile-name { font-weight: 700; margin-bottom: 4px; }
+  .footer-col-1 .profile-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .footer-col-1 .profile-icon { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; margin: 0; flex: none; }
+  .footer-col-1 .profile-name { font-weight: 700; margin: 0; }
+  .footer-col-1 .profile-links { display: flex; flex-wrap: wrap; gap: 4px 1.2em; }
   .footer-col-1 .profile-bio { font-size: 0.9em; color: #828282; margin-bottom: 8px; }
   .social-links-list { list-style: none; margin-left: 0; }
   .social-links-list li { margin-bottom: 6px; }

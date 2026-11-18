@@ -135,49 +135,6 @@
   text-align: right;
 }
 
-/* 記事下の「書いている人」（_includes/author-box.html） */
-.author-box {
-  margin: 2.5em 0 0;
-  padding: 1.2em 1.3em;
-  background: #f7f7f5;
-  border-radius: 8px;
-}
-.author-box__label {
-  margin: 0 0 0.7em;
-  font-size: 0.8em;
-  color: #828282;
-  letter-spacing: 0.05em;
-}
-.author-box__body {
-  display: flex;
-  gap: 1em;
-  align-items: flex-start;
-}
-.author-box .author-box__icon {
-  flex: none;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0;
-}
-.author-box__text p {
-  margin: 0;
-}
-.author-box__name {
-  font-weight: bold;
-}
-.author-box .author-box__intro {
-  margin: 0.3em 0 0.7em;
-  font-size: 0.9em;
-  line-height: 1.7;
-}
-.author-box__links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4em 1.2em;
-  font-size: 0.85em;
-}
 /* PCなど広い画面では関連記事を4列に（2列だと写真が大きすぎるため） */
 @media (min-width: 600px) {
   .related-posts__list {
