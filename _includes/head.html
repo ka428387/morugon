@@ -10,7 +10,7 @@
   {%- seo title=false -%}
   <meta property="og:title" content="{{ seo_title }}" />
   <meta name="twitter:title" content="{{ seo_title }}" />
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?v={{ site.time | date: "%s" }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}

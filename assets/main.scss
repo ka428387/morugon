@@ -177,3 +177,12 @@
   gap: 0.4em 1.2em;
   font-size: 0.85em;
 }
+/* PCなど広い画面では関連記事を4列に（2列だと写真が大きすぎるため） */
+@media (min-width: 600px) {
+  .related-posts__list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .related-posts__title {
+    font-size: 0.85em;
+  }
+}
