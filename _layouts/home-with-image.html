@@ -18,8 +18,8 @@ layout: default
         </a>
       </h3>
       {%- if post.image -%}
-      <a href="{{ post.url | relative_url }}">
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" style="max-width:100%; height:auto; margin: 0.5em 0;">
+      <a class="post-list__thumb" href="{{ post.url | relative_url }}">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}"{% if post.image_position %} style="object-position: {{ post.image_position }};"{% endif %}>
       </a>
       {%- endif -%}
       {%- if site.show_excerpts -%}

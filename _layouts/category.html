@@ -4,26 +4,26 @@ layout: default
 <div class="home">
   <h1 class="page-heading">{{ page.title }}</h1>
 
+  {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
   <ul class="post-list">
-    {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
-    {% for post in cat_posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%Y年%-m月%-d日" }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {% if post.image %}
-          <a href="{{ post.url | relative_url }}">
-            <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" style="max-width:100%; height:auto;">
-          </a>
-        {% endif %}
-        {% if site.show_excerpts %}
-          {{ post.excerpt }}
-        {% endif %}
-      </li>
-    {% endfor %}
+    {%- for post in cat_posts -%}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%Y年%-m月%-d日" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if post.image -%}
+      <a class="post-list__thumb" href="{{ post.url | relative_url }}">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}"{% if post.image_position %} style="object-position: {{ post.image_position }};"{% endif %}>
+      </a>
+      {%- endif -%}
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
   </ul>
 
   {% assign cat_count = cat_posts | size %}

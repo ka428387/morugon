@@ -11,9 +11,6 @@
         <p class="profile-name">{{ site.author_name | default: site.title | escape }}</p>
         <p class="profile-bio">北関東の田舎で三兄弟を子育て中。写真、おもちゃ好き。仕事は子どもたちのお世話と家業の経理。</p>
         <p><a href="{{ "/about/" | relative_url }}">プロフィールを見る →</a></p>
-      </div>
-
-      <div class="footer-col footer-col-2">
         <ul class="social-links-list">
           {%- if site.twitter_url -%}
           <li>
@@ -34,11 +31,29 @@
         </ul>
       </div>
 
+      <div class="footer-col footer-col-2">
+        <p class="footer-label">カテゴリ</p>
+        <ul class="footer-cat-list">
+          <li><a href="{{ '/categories/toys/' | relative_url }}">あそび</a></li>
+          <li><a href="{{ '/categories/photo/' | relative_url }}">写真</a></li>
+          <li><a href="{{ '/categories/life/' | relative_url }}">生活</a></li>
+          <li><a href="{{ '/categories/parenting/' | relative_url }}">育児</a></li>
+          <li><a href="{{ '/categories/thoughts/' | relative_url }}">思考</a></li>
+          <li><a href="{{ '/categories/ai/' | relative_url }}">AI</a></li>
+          <li><a href="{{ '/categories/work/' | relative_url }}">仕事</a></li>
+          <li><a href="{{ '/apps/' | relative_url }}">アプリ</a></li>
+        </ul>
+      </div>
+
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
       </div>
 
     </div>
+
+    <p class="footer-bottom">
+      <a href="{{ '/privacy-policy/' | relative_url }}">プライバシーポリシー</a>
+    </p>
 
   </div>
 </footer>
@@ -57,4 +72,12 @@
   }
   .social-links-list a:hover { color: #111; }
   .social-links-list svg { vertical-align: middle; }
+  .footer-label { font-weight: 700; margin-bottom: 6px; }
+  .footer-cat-list { list-style: none; margin-left: 0; display: flex; flex-wrap: wrap; gap: 4px 1.2em; }
+  .footer-cat-list li { margin: 0; }
+  .footer-cat-list a { color: #424242; text-decoration: none; }
+  .footer-cat-list a:hover { color: #111; }
+  .footer-bottom { margin: 1.2em 0 0; padding-top: 1em; border-top: 1px solid #e8e8e8; font-size: 0.85em; }
+  .footer-bottom a { color: #828282; text-decoration: none; }
+  .footer-bottom a:hover { color: #111; }
 </style>

@@ -3,6 +3,7 @@ layout: post-with-share
 title: 惰性でXを開いてしまうので、Xの顔をした読書アプリを作った
 date: 2026-07-09
 image: /assets/images/tsundoku-timeline-01.jpg
+image_position: "center top"
 categories:
   - AI
 tags:

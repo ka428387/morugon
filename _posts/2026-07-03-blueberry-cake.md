@@ -3,6 +3,7 @@ layout: post-with-share
 title: "行き当たりばったりなお誕生日ケーキ"
 date: 2026-07-03
 image: /assets/images/blueberry-cake-02.jpg
+image_position: "center 35%"
 categories: [生活]
 tags: [生活, AI活用]
 permalink: /entry/20260703/

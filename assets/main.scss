@@ -111,7 +111,7 @@
 }
 .related-posts__thumb {
   display: block;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
   border-radius: 6px;
   background: #f3f3f3;
@@ -186,4 +186,23 @@
   .related-posts__title {
     font-size: 0.85em;
   }
+}
+
+/* トップ・カテゴリの一覧の写真（_layouts/home-with-image.html, category.html）
+   元の写真の縦横比がばらばらでも 3:2 に切りそろえる（関連記事カードと同じ。オニマガと同じ比率）。
+   大事なところが切れる記事は front matter に image_position: "center top" などを書く */
+.post-list__thumb {
+  display: block;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #f3f3f3;
+  margin: 0.5em 0;
+}
+.post-list__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
 }
