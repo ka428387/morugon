@@ -46,5 +46,5 @@ status: published
 <div style="margin-top: 2em; padding: 1em 1.2em; background-color: #f7f7f7; border-radius: 8px; font-size: 0.85em; color: #666;">
   <p style="margin: 0 0 0.6em 0;">記事で紹介した商品はこちら　<span style="opacity: 0.6;">[PR]</span></p>
   <p style="margin: 0 0 0.4em 0;">・<a href="https://a.r10.to/hYdH5A" target="_blank" rel="noopener noreferrer">CUBORO スタンダード32（楽天市場）</a></p>
-  <p style="margin: 0;">・<a href="https://a.r10.to/hYAwWZ" target="_blank" rel="noopener noreferrer">CUBORO ジュニア（楽天市場）</a></p>
+  <p style="margin: 0;">・<a href="https://hb.afl.rakuten.co.jp/ichiba/555c474b.0792bad8.555c474c.51b45976/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsolairo%2Fcub201%2F&link_type=hybrid_url" target="_blank" rel="noopener noreferrer">CUBORO ジュニア（楽天市場）</a></p>
 </div>
