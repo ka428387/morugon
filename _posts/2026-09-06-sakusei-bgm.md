@@ -6,7 +6,6 @@ image: /assets/images/sakusei-bgm-01.png
 categories:
   - AI
 tags:
-  - AI
   - AI活用
   - あそび
 permalink: /entry/20260906/

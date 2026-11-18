@@ -6,7 +6,6 @@ image: /assets/images/honpen-dake-04.jpg
 categories:
   - AI
 tags:
-  - AI
   - AI活用
   - 育児
 permalink: /entry/20261025/
