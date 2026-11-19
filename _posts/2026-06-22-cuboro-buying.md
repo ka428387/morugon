@@ -43,8 +43,6 @@ status: published
 
 
  
-<div style="margin-top: 2em; padding: 1em 1.2em; background-color: #f7f7f7; border-radius: 8px; font-size: 0.85em; color: #666;">
-  <p style="margin: 0 0 0.6em 0;">記事で紹介した商品はこちら　<span style="opacity: 0.6;">[PR]</span></p>
-  <p style="margin: 0 0 0.4em 0;">・<a href="https://a.r10.to/hYdH5A" target="_blank" rel="noopener noreferrer">CUBORO スタンダード32（楽天市場）</a></p>
-  <p style="margin: 0;">・<a href="https://hb.afl.rakuten.co.jp/ichiba/555c474b.0792bad8.555c474c.51b45976/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwoodymonkey%2Fa0118-043%2F&link_type=hybrid_url" target="_blank" rel="noopener noreferrer">CUBORO ジュニア（楽天市場）</a></p>
-</div>
+{% include item-box.html title="CUBORO スタンダード32（キュボロ）" image="https://thumbnail.image.rakuten.co.jp/@0_mall/andchild/cabinet/cuboro/new/32_1.jpg?_ex=240x240" rakuten_keyword="キュボロ スタンダード32 正規輸入品" amazon_keyword="キュボロ スタンダード32 正規輸入品" %}
+
+{% include item-box.html title="CUBORO ジュニア（キュボロ）" image="https://thumbnail.image.rakuten.co.jp/@0_mall/woodymonkey/cabinet/01853253/08395935/cuboro_201_001f.jpg?_ex=240x240" rakuten_keyword="キュボロ ジュニア 正規輸入品" asin="B09GLX7VMN" %}

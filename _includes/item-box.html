@@ -8,6 +8,7 @@
   - asin   … Amazonの商品番号（URLの /dp/ のあとの10文字）。あれば Amazon ボタンが商品ページへ、なければ検索結果へ
   - image  … 楽天の商品画像のURL、または自分の写真（/assets/images/〜）。なければ画像なしで表示
   - rakuten_keyword … 楽天で検索する言葉を商品名と変えたいときだけ
+  - amazon_keyword … Amazon で検索する言葉を商品名と変えたいときだけ（asin がないとき）
   - rakuten_item … 楽天のふつうの商品ページURL。楽天ボタンがその商品ページへのアフィリエイトリンクになる
   - no_amazon=true … Amazon のボタンを出さない（Amazonで売っていないもの）
   - rakuten / amazon / yahoo … リンクを自分で用意したときだけ（自動のリンクより優先）
@@ -26,7 +27,8 @@
 {% elsif site.amazon_tag and include.asin %}
   {% capture amazon_url %}https://www.amazon.co.jp/dp/{{ include.asin }}?tag={{ site.amazon_tag }}{% endcapture %}
 {% elsif site.amazon_tag %}
-  {% capture amazon_url %}https://www.amazon.co.jp/s?k={{ include.title | url_encode }}&tag={{ site.amazon_tag }}{% endcapture %}
+  {% assign ak = include.amazon_keyword | default: include.title %}
+  {% capture amazon_url %}https://www.amazon.co.jp/s?k={{ ak | url_encode }}&tag={{ site.amazon_tag }}{% endcapture %}
 {% endif %}
 
 {% if include.rakuten %}

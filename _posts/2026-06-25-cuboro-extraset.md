@@ -52,8 +52,6 @@ status: published
 これからキュボロを始める方は、まずはこちらもどうぞ → <a href="{{ '/entry/20260622/' | relative_url }}" target="_blank" rel="noopener noreferrer">キュボロはなにから買う？スタンダード32＋ジュニアをすすめる理由</a>
 
 
-<div style="margin-top: 2em; padding: 1em 1.2em; background-color: #f7f7f7; border-radius: 8px; font-size: 0.85em; color: #666;">
-  <p style="margin: 0 0 0.6em 0;">記事で紹介した商品はこちら　<span style="opacity: 0.6;">[PR]</span></p>
-  <p style="margin: 0 0 0.4em 0;">・<a href="https://hb.afl.rakuten.co.jp/ichiba/555c474b.0792bad8.555c474c.51b45976/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fandchild%2Fcuboro_wave%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9" target="_blank" rel="noopener noreferrer">CUBORO WAVE（楽天市場）</a></p>
-  <p style="margin: 0;">・<a href="https://hb.afl.rakuten.co.jp/ichiba/555c474b.0792bad8.555c474c.51b45976/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fandchild%2Fcuboro_cugolinohit%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9" target="_blank" rel="noopener noreferrer">CUBORO KICK（楽天市場）</a></p>
-</div>
+{% include item-box.html title="CUBORO WAVE（キュボロ ウェイブ）" image="https://thumbnail.image.rakuten.co.jp/@0_mall/andchild/cabinet/cuboro/wave_1.jpg?_ex=240x240" rakuten_keyword="キュボロ ウェイブ 正規輸入品" amazon_keyword="キュボロ ウェイブ 正規輸入品" %}
+
+{% include item-box.html title="CUBORO KICK（キュボロ キック）" image="https://thumbnail.image.rakuten.co.jp/@0_mall/andchild/cabinet/cuboro/new/kick_1.jpg?_ex=240x240" rakuten_keyword="キュボロ キック 正規輸入品" asin="B0DDWZW3NP" %}
