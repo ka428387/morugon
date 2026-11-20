@@ -42,7 +42,7 @@ status: published
 
 ## 上の子がいるときのこと
 
-<img src="{{ '/assets/images/0saiji-shikumi-ue.jpg' | relative_url }}" alt="きょうだいで木の玉の道を組んで遊んでいる様子" style="margin: 1.5em auto;">
+<img src="{{ '/assets/images/0saiji-shikumi-kyodai.jpg' | relative_url }}" alt="布団に寝ている赤ちゃんの上にかがみこむ上の子" style="margin: 1.5em auto;">
 
 第二子以降の出産のときに、やっておいてよかったこと。
 
