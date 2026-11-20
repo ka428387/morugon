@@ -2,7 +2,7 @@
 layout: post-with-share
 title: "0歳児育児、モノじゃないけど助かったこと"
 date: 2026-11-09
-image: /assets/images/0saiji-shikumi-top.jpg
+image: /assets/images/0saiji-shikumi-top2.jpg
 categories: [育児]
 tags: [育児]
 permalink: /entry/20261109/
@@ -10,7 +10,7 @@ excerpt: "買ってよかったものは、たくさんあります。でも3人
 status: published
 ---
 
-<img src="{{ '/assets/images/0saiji-shikumi-top.jpg' | relative_url }}" alt="リビングのラグの上にひとりで座っている赤ちゃん" style="margin: 1.5em auto;">
+<img src="{{ '/assets/images/0saiji-shikumi-top2.jpg' | relative_url }}" alt="リビングの床にうつぶせで寝転がっている赤ちゃん" style="margin: 1.5em auto;">
 
 前回、<a href="{{ '/entry/20261107/' | relative_url }}" target="_blank" rel="noopener noreferrer">0歳児育児で買ってよかったモノ</a>について書きました。
 
