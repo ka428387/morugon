@@ -26,7 +26,7 @@ status: published
 <blockquote class="twitter-tweet" data-lang="ja"><a href="https://twitter.com/tarachinemum/status/2119327258846634214"></a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-まやさんが続けて挙げていた Adventar は、それぞれが自分のブログに記事を書いて持ち寄る仕組みです。でもそれだと、ブログを持っている人しか参加できません。
+参考として挙げられていた Adventar は、それぞれが自分のブログに記事を書いて持ち寄る仕組みです。でもそれだと、ブログを持っている人しか参加できません。
 
 一方まやさんの「写真1枚とひとことコメントのみでもOK」なら、ブログがなくても参加できます。子どもに選んだプレゼントのこと、自分が子どものころ大事にしていたもの。そういう話を気軽に置いていける場所にしたくて、専用のページを作ることにしました。
 
@@ -99,6 +99,6 @@ https://adventar.org/<br><br>
 
 今も遊んでいるおもちゃでも、もう手元にないおもちゃでも大丈夫です。
 
-協力してもいいよ〜！という人は、Xの <a href="https://x.com/ka_428" target="_blank" rel="noopener noreferrer">@ka_428</a> にリプライかDMをください。詳細と専用フォームのリンクをお送りします。締め切りは11月25日です。
+協力してもいいよ〜！という人は、Xの <a href="https://x.com/ka_428" target="_blank" rel="noopener noreferrer">@ka_428</a> にリプライかDMをください。詳細と専用フォームのリンクをお送りします。締め切りは11月29日です。
 
 アドベントの時期を、一緒に楽しみましょう！
