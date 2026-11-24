@@ -43,7 +43,7 @@ status: published
 
 {% include item-box.html title="サンタさんのおとしもの（三浦太郎）" asin="4751529706" image="https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/9706/9784751529706_1_13.jpg?_ex=240x240" rakuten_item="https://item.rakuten.co.jp/book/16477653/" %}
 
-**シャボン玉とカラーペンセット（約1,350円）** … <a href="{{ '/entry/20260705/' | relative_url }}" target="_blank" rel="noopener noreferrer">別記事</a>でも書きましたが、シャボン玉は大きいほうが楽しいので、この組み合わせ。ちょっと予算が余ったので、クリック式のカラーペンをセットに。このカラーペン、クリック式なのでキャップがなくならず、乾いてしまうこともないのでとても使いやすいです！
+**シャボン玉とカラーペンセット（約1,350円）** … <a href="{{ '/entry/20260705/' | relative_url }}" target="_blank" rel="noopener noreferrer">別記事</a>でも書きましたが、シャボン玉は大きいほうが楽しいので、この組み合わせ。ちょっと予算が余ったので、クリック式のカラーペンをセットにしました。このカラーペン、クリック式なのでキャップがなくならず、乾いてしまうこともないのでとても使いやすいです！
 
 {% include item-box.html title="池田工業社 カラフルジャンボしゃぼん玉" asin="B0BXSKRRDJ" image="https://thumbnail.image.rakuten.co.jp/@0_mall/sanyodo-shop/cabinet/image57/4970093014665_1.jpg?_ex=240x240" rakuten_keyword="カラフルジャンボしゃぼん玉" %}
 
@@ -53,7 +53,7 @@ status: published
 
 3〜5歳の子たちは怖がっておそるおそる押していましたが、怖いもの知らずの赤ちゃんたちはバシバシ押していたのがいい思い出。
 
-ただしこちら、1,500円をオーバーしていました・・・。セールのタイミングでお安くなるといいな・・・。
+ただしこちら、1,500円をオーバーしていました……。セールのタイミングでお安くなるといいな。。
 
 {% include item-box.html title="バンダイ スーパーイタイワニー" asin="B0DYJ74S2L" image="https://thumbnail.image.rakuten.co.jp/@0_mall/irisplaza-r/cabinet/tasya159/7341226-y.jpg?_ex=240x240" rakuten_keyword="スーパーイタイワニー" %}
 
