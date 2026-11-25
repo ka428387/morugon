@@ -163,3 +163,26 @@
   display: block;
   margin: 0;
 }
+
+/* トップの記事一覧のページ送り（_layouts/home-with-image.html） */
+.pager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  margin: 2em 0 1.5em;
+}
+.pager__link {
+  flex: 1;
+}
+.pager__next {
+  text-align: right;
+}
+a.pager__link {
+  padding: 0.6em 0;
+}
+.pager__count {
+  color: #828282;
+  font-size: 0.9em;
+  white-space: nowrap;
+}

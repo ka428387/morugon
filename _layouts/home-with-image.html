@@ -8,8 +8,10 @@ layout: default
 
   {{ content }}
 
+  {%- comment -%} 10本ずつ（_config.yml の paginate）。1ページ目の最初の写真だけはすぐ読み込み、ほかは画面に近づいてから {%- endcomment -%}
+  {%- assign list_posts = paginator.posts | default: site.posts -%}
   <ul class="post-list">
-    {%- for post in site.posts -%}
+    {%- for post in list_posts -%}
     <li>
       <span class="post-meta">{{ post.date | date: "%Y年%-m月%-d日" }}</span>
       <h3>
@@ -19,7 +21,7 @@ layout: default
       </h3>
       {%- if post.image -%}
       <a class="post-list__thumb" href="{{ post.url | relative_url }}">
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}"{% if post.image_position %} style="object-position: {{ post.image_position }};"{% endif %}>
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}"{% unless forloop.first and paginator.page == 1 %} loading="lazy"{% endunless %}{% if post.image_position %} style="object-position: {{ post.image_position }};"{% endif %}>
       </a>
       {%- endif -%}
       {%- if site.show_excerpts -%}
@@ -28,6 +30,22 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
+
+  {%- if paginator.total_pages > 1 -%}
+  <nav class="pager" aria-label="記事一覧のページ">
+    {%- if paginator.previous_page -%}
+      <a class="pager__link pager__prev" href="{{ paginator.previous_page_path | relative_url }}">← 新しい記事</a>
+    {%- else -%}
+      <span class="pager__link pager__prev"></span>
+    {%- endif -%}
+    <span class="pager__count">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+    {%- if paginator.next_page -%}
+      <a class="pager__link pager__next" href="{{ paginator.next_page_path | relative_url }}">古い記事 →</a>
+    {%- else -%}
+      <span class="pager__link pager__next"></span>
+    {%- endif -%}
+  </nav>
+  {%- endif -%}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>

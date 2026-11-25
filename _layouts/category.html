@@ -16,7 +16,7 @@ layout: default
       </h3>
       {%- if post.image -%}
       <a class="post-list__thumb" href="{{ post.url | relative_url }}">
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}"{% if post.image_position %} style="object-position: {{ post.image_position }};"{% endif %}>
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}"{% unless forloop.first %} loading="lazy"{% endunless %}{% if post.image_position %} style="object-position: {{ post.image_position }};"{% endif %}>
       </a>
       {%- endif -%}
       {%- if site.show_excerpts -%}

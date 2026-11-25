@@ -16,6 +16,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+
+# トップの記事一覧は10本ずつ。2ページ目からは /page2/ /page3/ …（jekyll-paginate は index.html でしか動かない）
+paginate: 10
+paginate_path: "/page:num/"
 
 # 商品ボックス（_includes/item-box.html）で使うアフィリエイトID
 amazon_tag: "kasumi73400b-22"
